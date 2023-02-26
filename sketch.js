@@ -1,7 +1,12 @@
+let canvas;
+let img;
+
+
 function setup() {
-    createCanvas(400, 400);
+    canvas = createCanvas(600, 600);
+    img = loadImage("assets/miming_dissolving_grace");
 }
   
 function draw() {
-    background(220);
+    image(img, 0, 0, 600, 600);
 }
